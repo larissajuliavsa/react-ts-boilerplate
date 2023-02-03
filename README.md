@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Para criar create-react-app com typescript:
+npx create-react-app my-app --template typescript
+
+Para instalar o typescript no create-react-app já feito:
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+Executar:
+npx tsc --init
+
+Para instalar o sass:
+npm uninstall node-sass
+npm install sass
+
+No arquivo tsconfig.json:
+Descomentar a linha "jsx" e alterar o seu valor para "react"
+"jsx": "react"
+
